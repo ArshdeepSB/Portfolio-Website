@@ -20,11 +20,14 @@
 			color: goldenrod	
 		}	
 		.carousel-item{
-    		height: 600px;
+    		height: 800px;
 		}	 
 		.carousel-item img{
-   	 		height: 600px;
+   	 		height: 800px;
 		}
+		html {
+ 			 scroll-behavior: smooth;
+		}	
 	</style>
 </head>
 
@@ -56,11 +59,12 @@
 			<img class="img-fluid rounded" src="./Images/Arsh1.png" alt="picture of me" style="padding-left: 20%;" width="80%">
 		</div>
 
-		<div class="col-6" style="padding-top: 10%;">
+		<div class="col-5" style="padding-top: 10%; text-align: center;" >
 			<div class="row">
-				<h3>Welcome, I am a Web Developer</h3>
+				<h3>Welcome, I'm Arshdeep Badhan, a Computer Science student at Ryerson University, currently on the search for Developer internships for Summer 2022.</h3>
+				
 			</div>
-			<div class="row pt-4" id="Contact-Me">
+			<div class="row pt-4" style="padding-left: 20%;" id="Contact-Me">
 				<a class="pl-5" href="mailto:Arshdeepbadhan1@gmail.com" target="_blank"><img src="./Images/email.png" alt="email" width="68" height="68"></a>
 				<a class='pl-5' href="https://github.com/ArshdeepSB" target="_blank"><img src="./Images/GitHub-Mark-64px.png"  alt="Github img"></a>
 				<a class="pl-5" href="https://www.linkedin.com/in/arshdeep-badhan-68aa27160/" target="_blank"><img src="./Images/linkedin.svg" alt="linkidin profile" width="68" height="68"> </a>
@@ -75,20 +79,17 @@
 			background: linear-gradient(to right,#de6262,#ffb88c); border-color: #de6262;
 			">
 				<h2>Who am I?</h2>
-				<p> I am in my first year of Computer Science at Ryerson and a recent Chinguacousy Secondary 
-					Highschool Honours Graduate. I am looking to use my knowledge of computer programming to
-			help make an impact in my community. I am looking for projects that can challenge what I
-			currently know about coding. For assistance in creating a website or other opportunities please visit the <a
-				href="#Contact-Me">Contact-Me</a> section</p>
+				<p> In my free time, I like to apply my newly acquired computer science knowledge to side projects. This helps me expand my knowledge on the topic and see how it can be applied to a real-life problem.  
+					I have a huge passion for programming because it gives me the freedom to contribute something meaningful to the world. Aside from programming, I love reading books, watching anime, and playing music on my guitar.  </p>
 			</div>
 		</div>
-		<div class="col-4 pt-5 text-center">
+		<div class="col-4 text-center">
 			<img src="./Images/Me2.jpeg" alt="temp image" class= "rounded-circle" length="47%" width="47%">
 		</div>
 	</div>
 
 	<div class="row p-4 justify-content-center" id="Projects">
-		<h2 class="p-3" style="background-color: rgba(255,255,255, 0.8);">Projects</h2>
+		<h2 class="p-3" style="background-color: rgba(255,255,255, 0.8);">Featured Projects</h2>
 	</div>
 	<div id="carouselExampleIndicators" class=" row carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -100,19 +101,23 @@
 		  <div class="carousel-item active">
 			<img class="d-block w-100" src="./Images/clock.jpg" alt="First slide">
 			<div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0,0, 0.4);">
-				<h5>Lofi-Clock Chrome Extension</h5>
-				<p>Click for more information</p>
+				<h5> <a style=" color: aliceblue;" target="_blank" href="https://github.com/ArshdeepSB/Focus-Clock">Lofi Chrome Extension</a></h5>
+				<p>An extension that combines the pomodaro study technique with lofi music to provide a productive environment for studying.</p>
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="./Images/JKZform.png" alt="Second slide">
+			<img class="d-block w-100" src="./Images/Led-Cube.png" alt="Second slide">
 			<div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0,0, 0.4);">
-				<h5>Online Club Form</h5>
-				<p>Click for preview</p>
+				<h5><a style=" color: aliceblue;" target="_blank" href="https://github.com/ArshdeepSB/Led-Cube-Project">Led-Cube</a></h5>
+				<p>A 3D Matrix of LED lights made to create 3D holographic animations and react with music.</p>
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img class="d-block w-100" src="./Images/pexels-veeterzy-303383.jpg" alt="Third slide">
+			<img class="d-block w-100" src="./Images/Foricity-Cane2.JPG" alt="Third slide">
+			<div class="carousel-caption d-none d-md-block" style="background-color: rgba(0,0,0, 0.4);">
+				<h5><a style=" color: aliceblue;" target="_blank" href="https://github.com/ArshdeepSB/Foricity-Cane">Foricity-Cane</a></h5>
+				<p>A cane that uses sensors to detects ice and water and warns users through vibrations, before they are injured.</p>
+			</div>
 		  </div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
